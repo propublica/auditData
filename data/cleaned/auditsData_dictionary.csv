@@ -1,0 +1,8 @@
+column,description
+fips,five digit county fips code
+name,"county name, e.g. ""Humphreys County, Mississippi"""
+state,full state name
+Number_of_returns,number of tax returns for tax years 2012-2015
+estimated_exams,estimated number of audits for tax years 2012-2015. calculated by Kim Bloomquist using audit coverage rates published in the annual IRS Data Book in combination with county tax return data on the IRS website.
+audit_rate,"estimated number of audits per 1,000 returns (tax years 2012-2015)"
+audit_rate_trunk,"for visualization. estimated number of audits per 1,000 returns (tax years 2012-2015). values below 6 are set to 6. Values above 11 are set to 11."
